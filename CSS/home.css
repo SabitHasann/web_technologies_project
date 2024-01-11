@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*navbar*/
+.navbar{
+    padding: 0.5rem 6rem !important;
+    border-radius: 16px;
+    margin: 25px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.navbar-custom{
+    background-color: rgb(90, 185, 193);
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/*carousel*/
+.carousel{
+    margin-top: 120px;
+}
+.c-item{
+    height: 680px;
+}
+.c-image{
+    height: 100%; 
+}
+
+.carousel-item :where(.carousel-caption h2,.carousel-caption p){
+    color: black;
+    font-weight: 500;
+}
+.carousel-caption{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-radius: 16px;
+    background-color: #fff;
+    opacity: 0.8;
+}
+.carousel-indicators{
+    width: 15%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    background-color: rgb(90, 185, 193);
+}
+/*about*/
+.about-us{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+.details{
+    position: relative;
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+    background: rgb(90, 185, 193);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 100px;
+}

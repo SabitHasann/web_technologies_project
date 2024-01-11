@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*navbar*/
+.navbar{
+    padding: 0.5rem 6rem !important;
+    border-radius: 16px;
+    margin: 25px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.navbar-custom{
+    background-color: rgb(90, 185, 193);
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/*tabs*/
+.c-tab .nav-link{
+    color: black !important;
+    font-weight: 480;
+}
+/*cards*/
+.c-cards{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.c-cards .card{
+    border-color: rgb(90, 185, 193) !important;
+}
+

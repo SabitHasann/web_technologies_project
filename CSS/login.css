@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*navbar*/
+.navbar{
+    padding: 0.5rem 6rem !important;
+    border-radius: 16px;
+    margin: 25px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.navbar-custom{
+    background-color: rgb(90, 185, 193);
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/*login*/
+.container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+.container header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.formLogin .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label {
+    color: #333;
+}
+.formLogin .input-box input {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.formLogin span {
+    display: flex;
+    color: red;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+}
+.formLogin .login {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(90, 185, 193);
+}
+.formLogin .login:hover {
+    background-color: rgb(130, 201, 206);
+}
+/*signup button*/
+.formSignup .signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.signup label {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.signup button {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.signup button:hover {
+    color: rgb(90, 185, 193);
+}

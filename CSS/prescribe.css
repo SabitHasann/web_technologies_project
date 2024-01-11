@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*navbar*/
+.navbar{
+    padding: 0.5rem 6rem !important;
+    border-radius: 16px;
+    margin: 25px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.navbar-custom{
+    background-color: rgb(90, 185, 193);
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/*tabs*/
+.c-tab .nav-link{
+    color: black !important;
+    font-weight: 480;
+}
+/*table*/
+.c-table{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+/*back & date*/
+.c-back_date{
+    display: flex;
+    column-gap: 1100px;
+    justify-content: center;
+    margin-top: 45px;
+}
+.c-date{
+    padding-top: 6px;
+}
+/*prescription*/
+.prescription{
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.prescription header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.prescription .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    color: #333;
+}
+.select-box-label label{
+    color: #333;
+    margin-top: 20px;
+}
+.prescription :where(.input-box input, .select-box){
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.prescription .radio-box{
+    margin-top: 20px;
+}
+.prescription :where(.radio input, .radio label){
+    cursor: pointer;
+}
+.radio input{
+    accent-color: rgb(90, 185, 193);
+}
+.radio label{
+    color: #707070;
+}
+.prescription :where(.radio-box, .radio){
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+.prescription .radio{
+    column-gap: 5px;
+}
+.select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+.c-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
